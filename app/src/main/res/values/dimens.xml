@@ -1,0 +1,33 @@
+<resources>
+    <dimen name="app_bar_height">280dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="pager_margin">-30dp</dimen>
+    <dimen name="pager_container_height">220dp</dimen>
+    <dimen name="pager_width">300dp</dimen>
+    <dimen name="pager_height">200dp</dimen>
+
+    <dimen name="card_view_width">300dp</dimen>
+    <dimen name="card_view_height">160dp</dimen>
+    <dimen name="card_view_corner_radius">4dp</dimen>
+    <dimen name="card_view_elevation">0dp</dimen>
+
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="medium_margin">10dp</dimen>
+    <dimen name="large_margin">16dp</dimen>
+    <dimen name="extra_large_margin">24dp</dimen>
+    <dimen name="double_extra_large_margin">30dp</dimen>
+
+    <dimen name="extra_small_padding">2dp</dimen>
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="medium_padding">10dp</dimen>
+    <dimen name="large_padding">16dp</dimen>
+
+    <dimen name="image_poster_width">120dp</dimen>
+    <dimen name="image_poster_height">160dp</dimen>
+
+    <dimen name="image_backdrop_height">200dp</dimen>
+
+    <dimen name="avatar">35dp</dimen>
+</resources>

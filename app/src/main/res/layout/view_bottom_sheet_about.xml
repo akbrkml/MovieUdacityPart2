@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="@dimen/large_padding"
+    android:paddingTop="@dimen/large_padding">
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_about"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_app"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_libs"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/retrofit"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gson"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/butter_knife"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/picasso"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coverflow"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yt_api"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expandable_text_view"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_developer"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_developer"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/large_margin"
+        android:layout_marginEnd="@dimen/large_margin"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_developer"/>
+
+</LinearLayout>

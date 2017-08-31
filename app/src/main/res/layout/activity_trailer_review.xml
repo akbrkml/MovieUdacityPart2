@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.akbar.dev.movieudacity.view.TrailerReviewActivity">
+
+    <me.crosswall.lib.coverflow.core.PagerContainer
+        android:id="@+id/pager_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pager_container_height"
+        android:background="?attr/colorPrimary">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/overlap_pager"
+            android:layout_width="@dimen/pager_width"
+            android:layout_height="@dimen/pager_height"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_message_trailer_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/large_padding"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+
+
+    </me.crosswall.lib.coverflow.core.PagerContainer>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_review"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_message_review_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/large_padding"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:visibility="invisible" />
+</LinearLayout>
